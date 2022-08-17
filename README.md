@@ -1,2 +1,2 @@
 # Team-Project-
-Monster Hunter!
+</h1> Chronicles of Kura </h1>
