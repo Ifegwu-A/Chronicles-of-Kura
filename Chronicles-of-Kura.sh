@@ -199,14 +199,19 @@ minionbattle(){
 
 #Boss battle function goes here
 boss(){ 
-
 #!/bin/bash
+
+
+
+#Boss battle!
+
+
 
 Tyrone=$(($RANDOM % 2))
 
 
 
-echo "Tyrone is preparing to attack with a build script! Pic>
+echo "Tyrone is preparing to attack with a build script! Pick your attack 0-1. (0/1)"
 
 
 
@@ -216,13 +221,16 @@ read defeated
 
 if [[ $Tyrone == $defeated ]]; then
 
-          echo "Tyrone is defeated!
+
+
+          echo "Tyrone is defeated!"
 
 else
 
           echo "The build script is too powerful, you died"
 
 fi
+
 }
 
 #Main story or flow or events
