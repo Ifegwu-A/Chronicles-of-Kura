@@ -197,15 +197,6 @@ minionbattle(){
 
 #move to location 2 and random event function goes here
 
-
-
-
-
-# Title:		Group Project
-# Author:		Clarence Munn
-
-#========================================================================
-
 # Location
 loc2(){
 echo "Good luck on your quest!"
@@ -353,6 +344,7 @@ else
           echo "The build script is too powerful, you died"
           gameover
 fi
+
 }
 
 #Main story or flow or events
