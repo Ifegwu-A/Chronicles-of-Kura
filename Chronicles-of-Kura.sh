@@ -104,8 +104,72 @@ battle(){
 }
 
 #charactercreation or selector function goes here
+select_character() {
+
+print  "Welcome traveler. Select your avatar: " $Green
+print "1 - Vicious Viking" $Red
+print "2 - Savage Sorcerer" $Purple
+print "3 - Terrible Tyrant" $Cyan
+read class
+
+case $class in
+	1 | "Vicious Viking")
+	name="Vicious Viking"
+	weapon="Sword of Odin"
+	attack=35
+        ;;
+	2 | "Savage Sorcerer")
+	name="Savage Sorcerer"
+	weapon="Dark Magic"
+	attack=40
+	;;
+	3 | "Terrible Tyrant")
+	name="Terrible Tyrant"
+	weapon="Battle Axe"
+	attack=40
+	;;
+	*)
+	print  "You selected poorly. Please choose again." $Green 
+esac
+clear
+}
+
 
 #move to location 1 and random event function goes here
+choosepath() {
+print "Next you must choose your path!!"
+
+sleep 1
+clear
+
+print "Do you wish to enter the forest???" $Yellow
+sleep 1
+cat ./images/forest.txt
+sleep 3
+clear
+print "Do you wish to enter the mountains???" $Cyan
+sleep 2
+cat ./images/mountain.txt
+sleep 3
+clear
+print "Choose:" $Red
+print "1 - Forest" $Red
+print "2 - Mountains" $Red
+read pick
+
+case $pick in
+        1 | "Forest" | "forest")
+        print "It is settled. Your journey begins in the Demented Forest!" $Green
+        sleep 1
+        ;;
+        2 | "Mountains" | "mountains")
+        print "It is settled. Your journey begins in the Mountains of Mayhem!" $Purple
+        sleep 1
+        ;;
+        *)
+        print "You chose poorly. Select again" $Red
+esac
+}
 
 #monster/minon battle against Cohort 1 and Cohort 2-RD
 minionbattle(){
@@ -143,9 +207,9 @@ main(){
     welcome
 
     #Character Maker or Selector
-
+    select_character
     #Move to Location 1 and check if a random event happens
-
+    choosepath
     #Monster/Minion Battle-RD
     minionbattle
 
