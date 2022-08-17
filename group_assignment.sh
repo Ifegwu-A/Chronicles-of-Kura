@@ -74,6 +74,7 @@ echo "__________________________________________"
 		echo "You have successfuly made it through the Fiery Forrest"
 		else
 		echo "You were attacked and killed the pack of wolves. GAME OVER"
+		exit 1
 		fi
 	fi
 else
