@@ -198,8 +198,32 @@ minionbattle(){
 #move to location 2 and random event function goes here
 
 #Boss battle function goes here
+boss(){ 
+
+#!/bin/bash
+
+Tyrone=$(($RANDOM % 2))
 
 
+
+echo "Tyrone is preparing to attack with a build script! Pic>
+
+
+
+read defeated
+
+
+
+if [[ $Tyrone == $defeated ]]; then
+
+          echo "Tyrone is defeated!
+
+else
+
+          echo "The build script is too powerful, you died"
+
+fi
+}
 
 #Main story or flow or events
 main(){
