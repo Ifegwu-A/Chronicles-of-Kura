@@ -30,9 +30,11 @@ elif [[ $location2 == 3 && $luck == 0 ]]; then
     echo "You step on a sea urchin. Your health points have decreased by 7!"
 elif [[ $location2 == 3 && $luck == 1 ]]; then
     echo "Fresh coconut water. Your health points have increased by 7!"
+
 # Catch all for entries that do not follow the criteria of 1/2/3.
+
 else
-    echo "Boring! Your choice."
+    echo "Boring! Your choice nonetheless."
 fi
 
 exit 1
