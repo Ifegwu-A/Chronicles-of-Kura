@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Title:		Group Project
-# Author:		Clarence Munn
+# Author:		Clarence M.
 
 #========================================================================
 
