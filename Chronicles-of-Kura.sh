@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Group 2 - Agbai Anya(Team Leader)(finalboss360), Brian Louie(Presenter)(kura3git), Richard Deodutt(Supervisor)(RichardDeodutt), Lora Lee Barreto(Documenter)(LLBArch7), Clarence Munn(Documenter)(munney84)
+#Group 2 - Agbai A.(Team Leader)(finalboss360), Brian L.(Presenter)(kura3git), Richard D.(Supervisor)(RichardDeodutt), Lora Lee B.(Documenter)(LLBArch7), Clarence M.(Documenter)(munney84)
 #08/16/2022
 #This script is for Group Project 1. It is a game inspired by NetworkChuck and Elden Ring.
 #v1.0.0
@@ -42,11 +42,11 @@ gameover(){
 #Write the credits of the game creators here
 rollcredits(){
     #Print the credits
-    print "Created by Agbai Anya(Team Leader)(finalboss360)" $Purple
-    print "Created by Brian Louie(Presenter)(kura3git)" $Purple
-    print "Created by Richard Deodutt(Supervisor)(RichardDeodutt)" $Purple
-    print "Created by Lora Lee Barreto(Documenter)(LLBArch7)" $Purple
-    print "Created by Clarence Munn(Documenter)(munney84)" $Purple
+    print "Created by Agbai A.(Team Leader)(finalboss360)" $Purple
+    print "Created by Brian L.(Presenter)(kura3git)" $Purple
+    print "Created by Richard D.(Supervisor)(RichardDeodutt)" $Purple
+    print "Created by Lora Lee B.(Documenter)(LLBArch7)" $Purple
+    print "Created by Clarence M.(Documenter)(munney84)" $Purple
     print "Inspired by NetworkChuck and Elden Ring" $Purple
 }
 
